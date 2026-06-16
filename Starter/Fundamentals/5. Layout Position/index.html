@@ -8,7 +8,45 @@
     <title>TailwindCSS</title>
   </head>
   <body class="p-20">
+    <!-- Position -->
     <!-- https://tailwindcss.com/docs/position -->
+     <h1 class="mb-3">Position</h1>
+     <div class="relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute bottom-0 right-0 bg-teal-500 p-4">
+        <p>Absolute</p>
+      </div>
+     </div>
+
+     
+     <div class="mt-4 relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute left-0 top-0 bg-teal-500 p-4">
+        <p>Absolute</p>
+      </div>
+     </div>
+
+      <div class="mt-4 relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute right-0 top-0 bg-teal-500 p-4">
+        <p>Absolute</p>
+      </div>
+     </div>
+
+      <div class="mt-4 relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute bottom-0 bg-teal-500 p-4">
+        <p>Absolute</p>
+      </div>
+     </div>
+     <!-- Display  -->
     <!-- https://tailwindcss.com/docs/display -->
+     <h1 class="mb-3">Display</h1>
+     <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+      <span class="inline  ">1.This is Display Inline and it will not break the line(wrap normally). </span>
+      <span class="inline-block bg-orange-200 w-[100px] h-[200px]">2. This is display inline-block and it will break the line(not extend beyond its parent).  </span>
+      <span class="block bg-blue-200">3.This is Display Block and well move to its own line</span>
+      <span class="hidden">4.This is Display Hidden and it will not be visible</span>
+     </div>
   </body>
 </html>
